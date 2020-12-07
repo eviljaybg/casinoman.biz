@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+body {
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****************************************************************************************************************/
+.clear {
+	clear:both;
+	font-size:1px;
+}
+/****************************************************************************************************************/
+body {
+	background:url(../images/bg.jpg) 0px -46px #212121 repeat-x;
+	margin:0px;
+	padding:0px;
+}
+/****************************************************************************************************************/
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+}
+/****************************************************************************************************************/
+#header {
+	height:100px;
+	background:url(../images/header.jpg) top repeat-x;
+}
+#header .title {
+	float:left;
+	width:531px;
+}
+#header .title h1 {
+	color:#FFFFFF;
+	font-size:26px;
+	line-height:100px;
+	margin:0 0 0 20px;
+}
+#header .title h1 a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#header .title h1 a:hover {
+	color:#FFFF00;
+}
+/****************************************************************************************************************/
+#menu {
+	height:46px;
+	background:url(../images/menu.jpg) top center no-repeat;
+}
+#menu ul {
+	line-height:46px;
+	text-transform:uppercase;
+}
+#menu ul li {
+	float:left;
+	font-weight:bold;
+	color:#000000;
+	background:url(../images/star.png) right center no-repeat;
+}
+#menu ul li a {
+	color:#000000;
+	text-decoration:none;
+	padding:0 30px;
+}
+#menu ul li a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	background:url(../images/star-hover.png) right center no-repeat;
+}
+#current a {
+	color:#FFFFFF !important;
+	text-decoration:none;
+	background:url(../images/star-hover.png) right center no-repeat;
+	display:block;
+}
+/****************************************************************************************************************/
+#banner {
+	height:293px;
+	margin:0px;
+}
+/****************************************************************************************************************/
+#breadcrump {
+    height:30px; 
+	margin:0;
+}
+#breadcrump p {
+	color:#FDB551;
+	line-height:30px;
+	margin:0 5px;
+}
+#breadcrump p a {
+	color:#FDB551;
+	text-decoration:underline;
+}
+#breadcrump p a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+/****************************************************************************************************************/
+#container {
+	position:relative;
+	margin:0px;
+}
+/****************************************************************************************************************/
+#left {
+	position:absolute;
+	width:190px;
+	top:0px;
+	left:0px;
+}
+#left p {
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	font-style:italic;
+}
+/****************************************************************************************************************/
+#right {
+	position:absolute;
+	width:190px;
+	top:0px;
+	right:0px;
+}
+#right p {
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	font-style:italic;
+}
+/****************************************************************************************************************/
+#content {
+	width:600px;
+	background:#323230;
+	margin:0 auto;
+	padding:10px 0px;
+}
+#content p {
+	color:#FFFFFF;
+	line-height:20px;
+	margin:0 20px;
+	padding:3px 0px;
+}
+#content ul {
+	color:#FFFF00;
+	list-style:square;
+	margin:0 20px 0 40px;
+}
+#content ol {
+	color:#FFFFFF;
+	list-style:decimal;
+	margin:0 20px 0 45px;
+}
+#content li {
+	line-height:20px;
+	padding:3px 0px;
+}
+#content a {
+	color:#FFFF00;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#content a:hover {
+	color:#FFFFB3;
+	text-decoration:none;
+}
+/****************************************************************************************************************/
+.toptitle {
+	color:#FFFFFF;
+	background:#D37E07;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:50px;
+	margin:0px;
+}
+h3 {
+	color:#FFFFFF;
+	background:#D37E07;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:50px;
+	margin:0px;
+}
+h2 {
+	color:#FFFFFF;
+	font-size:26px;
+	font-weight:bold;
+	line-height:30px;
+	margin:0 20px;
+}
+/****************************************************************************************************************/
+#footer {
+	height:60px;
+	border-top:solid #666666 1px;
+	margin:0px;
+}
+#footer p {
+	color:#FFFF00;
+	font-weight:bold;
+	text-align:center;
+	line-height:60px;
+}
+#footer p a {
+	text-decoration:underline;
+	color:#FFFF00;
+}
+#footer p a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+/****************************************************************************************************************/
+.banner-top {
+	float:right;
+	width:468px;
+	height:60px;
+	margin:20px 0px;
+}
+.banner-left {
+	width:120px;
+	height:240px;
+	background:#999999;
+	margin:10px auto;
+	padding:10px;
+}
+.banner-right {
+	width:125px;
+	height:125px;
+	background:#999999;
+	margin:10px auto;
+	padding:10px;
+}
+.banner-center {
+	width:468px;
+	height:60px;
+	background:#999999;
+	margin:10px auto;
+	padding:10px;
+}
+.left_img {
+	padding: 3px;
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin:10px 5px 0 20px;
+}
+.right_img {
+	padding: 3px;
+	float: right;
+	border: 1px solid #CCCCCC;
+	margin:10px 20px 0 0;
+}

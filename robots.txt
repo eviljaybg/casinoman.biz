@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /wp-admin/*
+Disallow: /wp-register.php
+Disallow: /wp-content/themes/icetea/includes/*
+
+Sitemap: http://casinoman.biz/sitemap_index.xml
